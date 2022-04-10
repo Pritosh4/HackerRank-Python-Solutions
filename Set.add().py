@@ -1,5 +1,5 @@
-num = raw_input()
-dist = set()
-for i in range(int(num)):
-    dist.add(raw_input())
-print len(dist)
+num = int(input())
+country = set()
+for i in range(num):
+    country.add(input())
+print(len(country))
