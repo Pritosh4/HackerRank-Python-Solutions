@@ -1,0 +1,6 @@
+n=int(input())
+A=set(input().split())
+m=int(input())
+B=set(input().split())
+C=A.union(B)
+print(len(C))
